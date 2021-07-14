@@ -1,0 +1,9 @@
+def maimai():#定义函数maimai
+    print("gugu")
+
+maimai()#调用函数
+def momo():#定义函数momo
+    print("为欸")
+    maimai()#将maimai函数嵌套进momo函数内
+    print("机会会")
+momo()#调用函数
